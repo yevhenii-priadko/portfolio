@@ -26,6 +26,8 @@ it reads and writes files but cannot run commands here. Eugene runs npm and git.
 - `src/app/[locale]/layout.tsx` — the root layout (html/body, fonts, metadata). There is no `src/app/layout.tsx`.
 - `src/app/fonts.ts` — next/font setup.
 - `src/components/<Name>/` — one folder per component: `Name.tsx` + `Name.module.css`.
+- `src/components/SectionHeading/` — shared "01 · Title" heading for every section.
+- `src/data/` — non-translatable data (links, images, tags).
 
 ## Conventions
 - Server Components by default; `"use client"` only where needed (LocaleSwitcher, Waveform).
@@ -49,7 +51,7 @@ it reads and writes files but cannot run commands here. Eugene runs npm and git.
 
 ## Page structure
 1. Hero ✅ (in code)
-2. Projects — client work first, then team projects. Card: screenshot, what I did, stack, Live / Code.
+2. Projects ✅ (in code) — client work first, then team projects. Data in `src/data/projects.ts`, copy in messages, screenshots in `public/projects/*.webp`.
 3. Stack — Backend / Frontend / Tools; "daily driver" items highlighted.
 4. About — live TV sound engineer → GoIT → team lead → freelance. Placeholders for years and channel still to fill.
 5. Contact — Telegram, LinkedIn, GitHub, Email.
@@ -81,8 +83,8 @@ github.com/yevhenii-priadko · linkedin.com/in/yevhenii-priadko
 
 ## TODO
 - [ ] Put the CV PDF at `public/cv.pdf` (Header "Download CV" links there).
-- [ ] Projects, Stack, About, Contact, Learning path sections in code.
+- [ ] Stack, About, Contact, Learning path sections in code.
 - [ ] About: years on air, TV channel, GoIT start year.
-- [ ] Project screenshots into `public/projects/` (retake Meblerija without the mouse cursor).
+- [ ] Project card screenshot slider (inner pages), if worth it.
 - [ ] Connect the repo to Vercel.
 - [ ] SEO: Open Graph image, sitemap, `alternates.languages` for en/uk.

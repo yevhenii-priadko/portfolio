@@ -30,5 +30,52 @@
       "stackValue": "Next.js · Node.js",
       "stackLabel": "React, TypeScript, Express, MongoDB"
     }
+  },
+  "Projects": {
+    "eyebrow": "01 · Projects",
+    "title": "Shipped, not just built.",
+    "lead": "Client sites I delivered end to end, and team projects where I led the development.",
+    "clientGroup": "Client work · 2026",
+    "teamGroup": "Team projects · Team lead",
+    "live": "Live site",
+    "code": "Code",
+    "frontend": "Frontend",
+    "backend": "Backend",
+    "ledTeam": "Led a team of {count}",
+    "opensNewTab": "(opens in a new tab)",
+    "items": {
+      "railway": {
+        "name": "Railway Atelier",
+        "description": "Website for a workshop that refits model locomotives with brushless motors. I worked directly with the owner, from requirements to launch.",
+        "points": [
+          "Migrated the site from static HTML/CSS to Next.js",
+          "Three languages: UA / EN / DE",
+          "Paginated works archive and technical SEO"
+        ],
+        "alt": "Railway Atelier homepage: a model locomotive chassis with a new motor over a technical drawing"
+      },
+      "flow": {
+        "name": "Flow Atelier",
+        "description": "Bilingual website for a business process automation agency working with n8n, Make and Zapier.",
+        "points": [
+          "Built on Astro with EN / UA i18n",
+          "Lead-capture form for consultation requests",
+          "Tuned for Lighthouse, deployed on Vercel"
+        ],
+        "alt": "Flow Atelier homepage: headline about automating routine work next to a diagram of connected services"
+      },
+      "harmoniq": {
+        "name": "Harmoniq",
+        "description": "Fullstack article platform, the final project of the GoIT program. I owned the architecture, code review and frontend–backend integration.",
+        "frontendStack": "Next.js 16, React 19, TypeScript, Zustand, TanStack Query, Route Handlers proxy",
+        "backendStack": "Express 5, MongoDB, access/refresh JWT in httpOnly cookies, Cloudinary, Swagger",
+        "alt": "Harmoniq homepage: headline Find your harmony in community next to a photo of a person looking at the mountains"
+      },
+      "meblerija": {
+        "name": "Meblerija",
+        "description": "Furniture store website built as a team: product catalog, FAQ and customer reviews. HTML, SASS and vanilla JavaScript.",
+        "alt": "Meblerija homepage: headline Create your ideal home over a photo of a living room with a sofa"
+      }
+    }
   }
 }

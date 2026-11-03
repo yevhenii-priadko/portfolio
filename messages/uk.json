@@ -30,5 +30,52 @@
       "stackValue": "Next.js · Node.js",
       "stackLabel": "React, TypeScript, Express, MongoDB"
     }
+  },
+  "Projects": {
+    "eyebrow": "01 · Проєкти",
+    "title": "Не просто зроблено, а запущено.",
+    "lead": "Клієнтські сайти, які я довів від вимог до запуску, і командні проєкти, де я керував розробкою.",
+    "clientGroup": "Клієнтські проєкти · 2026",
+    "teamGroup": "Командні проєкти · Тімлід",
+    "live": "Сайт",
+    "code": "Код",
+    "frontend": "Фронтенд",
+    "backend": "Бекенд",
+    "ledTeam": "Керував командою з {count}",
+    "opensNewTab": "(відкриється в новій вкладці)",
+    "items": {
+      "railway": {
+        "name": "Railway Atelier",
+        "description": "Сайт майстерні, що переобладнує моделі локомотивів на безколекторні мотори. Працював напряму з власником — від вимог до запуску.",
+        "points": [
+          "Переніс сайт зі статичного HTML/CSS на Next.js",
+          "Три мови: UA / EN / DE",
+          "Архів робіт з пагінацією та технічне SEO"
+        ],
+        "alt": "Головна Railway Atelier: шасі моделі локомотива з новим мотором на тлі креслення"
+      },
+      "flow": {
+        "name": "Flow Atelier",
+        "description": "Двомовний сайт агенції автоматизації бізнес-процесів, що працює з n8n, Make і Zapier.",
+        "points": [
+          "Astro з локалізацією EN / UA",
+          "Форма заявки на консультацію",
+          "Оптимізація під Lighthouse, деплой на Vercel"
+        ],
+        "alt": "Головна Flow Atelier: заголовок про автоматизацію рутини поруч зі схемою з'єднаних сервісів"
+      },
+      "harmoniq": {
+        "name": "Harmoniq",
+        "description": "Fullstack-платформа статей, фінальний проєкт програми GoIT. Відповідав за архітектуру, код-рев'ю та інтеграцію фронтенду з бекендом.",
+        "frontendStack": "Next.js 16, React 19, TypeScript, Zustand, TanStack Query, проксі на Route Handlers",
+        "backendStack": "Express 5, MongoDB, access/refresh JWT в httpOnly cookies, Cloudinary, Swagger",
+        "alt": "Головна Harmoniq: заголовок Find your harmony in community поруч із фото людини, що дивиться на гори"
+      },
+      "meblerija": {
+        "name": "Meblerija",
+        "description": "Сайт меблевого магазину, зроблений командою: каталог, FAQ і відгуки клієнтів. HTML, SASS і чистий JavaScript.",
+        "alt": "Головна Меблерії: заголовок «Створіть свій ідеальний дім» на фото вітальні з диваном"
+      }
+    }
   }
 }
