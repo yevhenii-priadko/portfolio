@@ -1,7 +1,8 @@
 {
   "Meta": {
     "title": "Євгеній Прядко — Junior Fullstack Developer",
-    "description": "Колишній звукорежисер прямих телеефірів, тепер fullstack-розробник: створюю вебзастосунки на Next.js, Node.js і MongoDB для реальних клієнтів."
+    "description": "Колишній звукорежисер прямих телеефірів, тепер fullstack-розробник: створюю вебзастосунки на Next.js, Node.js і MongoDB для реальних клієнтів.",
+    "ogAlt": "Євгеній Прядко, Junior Fullstack Developer: Від прямого ефіру до живого продакшну."
   },
   "Nav": {
     "label": "Головне меню",

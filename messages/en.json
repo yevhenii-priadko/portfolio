@@ -1,7 +1,8 @@
 {
   "Meta": {
     "title": "Yevhenii Priadko — Junior Fullstack Developer",
-    "description": "Former live TV sound engineer, now a fullstack developer building web apps with Next.js, Node.js and MongoDB for real clients."
+    "description": "Former live TV sound engineer, now a fullstack developer building web apps with Next.js, Node.js and MongoDB for real clients.",
+    "ogAlt": "Yevhenii Priadko, Junior Fullstack Developer: From live broadcast to live production."
   },
   "Nav": {
     "label": "Main",

@@ -1,8 +1,7 @@
 import { Inter, JetBrains_Mono, Onest, Space_Grotesk } from "next/font/google";
 
-// Space Grotesk has no Cyrillic glyphs. With adjustFontFallback off, the CSS
-// stack in globals.css (--ff-display) falls through to Onest for Ukrainian
-// letters instead of the metric-adjusted Arial fallback next/font would add.
+// Space Grotesk has no Cyrillic glyphs. globals.css (--ff-display) names it
+// directly and puts Onest right after it, so Ukrainian letters use Onest.
 export const spaceGrotesk = Space_Grotesk({
   subsets: ["latin", "latin-ext"],
   variable: "--font-space-grotesk",

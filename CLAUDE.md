@@ -9,7 +9,7 @@ The link goes into the resume, LinkedIn, Djinni and job applications.
 - Next.js 16 (App Router, `src/`), React 19, TypeScript, React Compiler on.
 - i18n: `next-intl` 4, locales `en` (default) and `uk` (shown as "UA").
 - Styles: CSS Modules + design tokens in `src/app/globals.css`. No Tailwind.
-- Deploy: Vercel (not connected yet).
+- Deploy: Vercel project `yevhenii-priadko` → https://yevhenii-priadko.vercel.app (auto-deploys on push to `main`).
 
 ## Commands
 - `npm run dev` — local dev server
@@ -85,5 +85,4 @@ github.com/yevhenii-priadko · linkedin.com/in/yevhenii-priadko
 ## TODO
 - CV: `public/cv/Yevhenii_Priadko_Resume_EN.pdf` and `_UA.pdf`; the Header link picks one by locale (`Nav.cvFile`). Source files live in Eugene's resume folder — re-copy when the resume changes.
 - [ ] Project card screenshot slider (inner pages), if worth it.
-- [ ] Connect the repo to Vercel.
 - [ ] SEO: Open Graph image, sitemap, `alternates.languages` for en/uk.
