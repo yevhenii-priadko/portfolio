@@ -10,7 +10,8 @@
     "about": "About",
     "contact": "Contact",
     "cv": "Download CV",
-    "language": "Language"
+    "language": "Language",
+    "cvFile": "/cv/Yevhenii_Priadko_Resume_EN.pdf"
   },
   "Hero": {
     "badge": "On air · Junior Fullstack Developer · Kyiv",
@@ -48,9 +49,10 @@
         "name": "Railway Atelier",
         "description": "Website for a workshop that refits model locomotives with brushless motors. I worked directly with the owner, from requirements to launch.",
         "points": [
-          "Migrated the site from static HTML/CSS to Next.js",
-          "Three languages: UA / EN / DE",
-          "Paginated works archive and technical SEO"
+          "Migrated the site from static HTML/CSS to Next.js with UA / EN / DE",
+          "Password-protected admin panel (Server Actions, httpOnly session cookie) to manage case studies",
+          "Works in MongoDB, photos in GridFS, served through an API route",
+          "Mobile PageSpeed raised from 71 to 92"
         ],
         "alt": "Railway Atelier homepage: a model locomotive chassis with a new motor over a technical drawing"
       },
@@ -98,5 +100,66 @@
     },
     "daily": "daily driver",
     "used": "used in projects"
+  },
+  "About": {
+    "eyebrow": "03 · About",
+    "title": "Live air has no second take.",
+    "p1": "Since 2019 I've mixed live TV broadcasts at the console on major Ukrainian channels, and before that I recorded sound on set. On air everything is checked before you go live, and when something breaks in the middle of a long marathon day, you fix it calmly, in seconds, while the whole crew relies on you.",
+    "p2": "In October 2025 I started the GoIT Fullstack program, led two team projects and began building websites for real clients. The habits from the studio came with me: prepare before release, keep things predictable and write code that is easy to hand over.",
+    "timeline": [
+      {
+        "when": "2013",
+        "what": "Bachelor in Music Arts",
+        "detail": "KNUCA, then sound recording on set"
+      },
+      {
+        "when": "2019–2026",
+        "what": "Live TV sound engineer",
+        "detail": "At the console on major Ukrainian channels"
+      },
+      {
+        "when": "2025–2026",
+        "what": "GoIT Fullstack program",
+        "detail": "Team lead of Harmoniq, 13 developers"
+      },
+      {
+        "when": "2026",
+        "what": "Freelance fullstack developer",
+        "detail": "Client sites live on custom domains",
+        "current": true
+      }
+    ],
+    "traits": [
+      {
+        "tag": "Soundcheck",
+        "title": "Check before you ship",
+        "text": "Predictable solutions over clever ones, and a release that holds up on the first try."
+      },
+      {
+        "tag": "Talkback",
+        "title": "Clear team communication",
+        "text": "Used to a crew where everyone needs to know what is happening right now."
+      },
+      {
+        "tag": "Handover",
+        "title": "Code others can pick up",
+        "text": "Readable structure and notes, so the next person does not need me in the room."
+      }
+    ],
+    "languagesLabel": "Languages",
+    "languages": [
+      {
+        "name": "Ukrainian",
+        "level": "native"
+      },
+      {
+        "name": "Russian",
+        "level": "native"
+      },
+      {
+        "name": "English",
+        "level": "B1"
+      }
+    ]
   }
 }

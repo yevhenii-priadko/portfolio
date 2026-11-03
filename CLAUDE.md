@@ -52,8 +52,8 @@ it reads and writes files but cannot run commands here. Eugene runs npm and git.
 ## Page structure
 1. Hero ✅ (in code)
 2. Projects ✅ (in code) — client work first, then team projects. Data in `src/data/projects.ts`, copy in messages, screenshots in `public/projects/*.webp`.
-3. Stack — Backend / Frontend / Tools; "daily driver" items highlighted.
-4. About — live TV sound engineer → GoIT → team lead → freelance. Placeholders for years and channel still to fill.
+3. Stack ✅ (in code) — Backend / Frontend / Tools; "daily driver" items highlighted. List in `src/data/stack.ts`.
+4. About ✅ (in code) — music degree → on-set sound → live TV console since 2019 → GoIT (Oct 2025 – Aug 2026) → freelance. No channel names on purpose: Eugene is a career switcher, the TV part is backstory only.
 5. Contact — Telegram, LinkedIn, GitHub, Email.
 6. Learning path — GoIT learning projects, low-key, at the very end.
 
@@ -82,9 +82,8 @@ it reads and writes files but cannot run commands here. Eugene runs npm and git.
 github.com/yevhenii-priadko · linkedin.com/in/yevhenii-priadko
 
 ## TODO
-- [ ] Put the CV PDF at `public/cv.pdf` (Header "Download CV" links there).
-- [ ] Stack, About, Contact, Learning path sections in code.
-- [ ] About: years on air, TV channel, GoIT start year.
+- CV: `public/cv/Yevhenii_Priadko_Resume_EN.pdf` and `_UA.pdf`; the Header link picks one by locale (`Nav.cvFile`). Source files live in Eugene's resume folder — re-copy when the resume changes.
+- [ ] Contact, Learning path sections in code.
 - [ ] Project card screenshot slider (inner pages), if worth it.
 - [ ] Connect the repo to Vercel.
 - [ ] SEO: Open Graph image, sitemap, `alternates.languages` for en/uk.

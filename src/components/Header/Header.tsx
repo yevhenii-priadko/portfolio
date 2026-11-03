@@ -23,8 +23,8 @@ export default function Header() {
 
       <div className={styles.actions}>
         <LocaleSwitcher label={t("language")} />
-        {/* TODO: put the PDF at public/cv.pdf */}
-        <a href="/cv.pdf" className={styles.cv} download>
+        {/* EN and UA resumes live in public/cv/; the path comes from messages. */}
+        <a href={t("cvFile")} className={styles.cv} download>
           {t("cv")}
         </a>
       </div>
