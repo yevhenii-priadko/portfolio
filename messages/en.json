@@ -77,5 +77,26 @@
         "alt": "Meblerija homepage: headline Create your ideal home over a photo of a living room with a sofa"
       }
     }
+  },
+  "Stack": {
+    "eyebrow": "02 · Stack",
+    "title": "The signal chain.",
+    "lead": "From the database to the browser. Highlighted tools are the ones I use in every project.",
+    "groups": {
+      "backend": {
+        "title": "Backend",
+        "note": "REST APIs with auth, validation, file uploads and documented endpoints."
+      },
+      "frontend": {
+        "title": "Frontend",
+        "note": "Multilingual, SEO-friendly interfaces that score well in Lighthouse."
+      },
+      "tools": {
+        "title": "Tools",
+        "note": "Code review, deploys and AI-assisted development as part of the daily routine."
+      }
+    },
+    "daily": "daily driver",
+    "used": "used in projects"
   }
 }
