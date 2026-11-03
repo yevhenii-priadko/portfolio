@@ -104,7 +104,7 @@
   "About": {
     "eyebrow": "03 · About",
     "title": "Live air has no second take.",
-    "p1": "Since 2019 I've mixed live TV broadcasts at the console on major Ukrainian channels, and before that I recorded sound on set. On air everything is checked before you go live, and when something breaks in the middle of a long marathon day, you fix it calmly, in seconds, while the whole crew relies on you.",
+    "p1": "From 2019 to 2022 I mixed live TV broadcasts at the console on major Ukrainian channels; before and after that I worked as a location sound engineer. On air everything is checked before you go live, and when something breaks in the middle of a long marathon broadcast, you fix it calmly, in seconds, while the whole crew relies on you.",
     "p2": "In October 2025 I started the GoIT Fullstack program, led two team projects and began building websites for real clients. The habits from the studio came with me: prepare before release, keep things predictable and write code that is easy to hand over.",
     "timeline": [
       {
@@ -113,9 +113,14 @@
         "detail": "KNUCA, then sound recording on set"
       },
       {
-        "when": "2019–2026",
+        "when": "2019–2022",
         "what": "Live TV sound engineer",
         "detail": "At the console on major Ukrainian channels"
+      },
+      {
+        "when": "2023–2026",
+        "what": "Location sound engineer",
+        "detail": "Sound on location for TV broadcasts"
       },
       {
         "when": "2025–2026",
@@ -161,5 +166,36 @@
         "level": "B1"
       }
     ]
+  },
+  "Contact": {
+    "eyebrow": "04 · Contact",
+    "title": "Let's talk.",
+    "lead": "Open to Junior Backend (Node.js) and Fullstack roles. The fastest way to reach me is Telegram.",
+    "channels": {
+      "telegram": "Telegram",
+      "email": "Email",
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    },
+    "opensNewTab": "(opens in a new tab)"
+  },
+  "Learning": {
+    "eyebrow": "05 · Learning path",
+    "title": "Where it started.",
+    "lead": "Learning projects from the GoIT Fullstack program, from the first markup homework to auth in Next.js.",
+    "groups": {
+      "node": "Node.js",
+      "next": "Next.js · React · TypeScript",
+      "js": "JavaScript",
+      "markup": "Markup"
+    },
+    "notesApi": "Notes API: Express 5, MongoDB, JWT sessions, password reset by email, Cloudinary",
+    "movieSearch": "live demo",
+    "allRepos": "all on GitHub",
+    "opensNewTab": "(opens in a new tab)"
+  },
+  "Footer": {
+    "built": "Built with Next.js · Deployed on Vercel",
+    "top": "Back to top"
   }
 }
