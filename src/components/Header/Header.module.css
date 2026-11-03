@@ -1,0 +1,71 @@
+.header {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px 32px;
+  padding-block: 28px;
+}
+
+.logo {
+  font-family: var(--ff-display);
+  font-weight: 700;
+  font-size: 18px;
+  letter-spacing: 0.2px;
+  color: var(--text-strong);
+}
+
+.nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  font-size: 15px;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  font-size: 14px;
+}
+
+.locales {
+  display: flex;
+  align-items: center;
+  font-family: var(--ff-mono);
+  color: var(--text-3);
+}
+
+.localeItem {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  margin-left: 6px;
+}
+
+.localeItem:first-child {
+  margin-left: 0;
+}
+
+.locale {
+  color: var(--text-3);
+  padding: 4px 2px;
+}
+
+.locale[aria-current="true"] {
+  color: var(--text-strong);
+}
+
+.cv {
+  display: inline-flex;
+  align-items: center;
+  min-height: 44px;
+  padding: 10px 18px;
+  border: 1px solid var(--line-2);
+  border-radius: var(--pill);
+  color: var(--text);
+}
+
+.cv:hover {
+  border-color: var(--accent);
+}

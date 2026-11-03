@@ -1,0 +1,34 @@
+{
+  "Meta": {
+    "title": "Євгеній Прядко — Junior Fullstack Developer",
+    "description": "Колишній звукорежисер прямих телеефірів, тепер fullstack-розробник: створюю вебзастосунки на Next.js, Node.js і MongoDB для реальних клієнтів."
+  },
+  "Nav": {
+    "label": "Головне меню",
+    "projects": "Проєкти",
+    "stack": "Стек",
+    "about": "Про мене",
+    "contact": "Контакти",
+    "cv": "Завантажити CV",
+    "language": "Мова"
+  },
+  "Hero": {
+    "badge": "В ефірі · Junior Fullstack Developer · Київ",
+    "titleLine1": "Від прямого ефіру",
+    "titleLine2": "до живого продакшну.",
+    "lead": "Роками я тримав звук прямих телеефірів. Тепер створюю fullstack-вебзастосунки на Next.js, Node.js і MongoDB — і запускаю їх для реальних клієнтів.",
+    "ctaProjects": "Дивитися проєкти",
+    "ctaContact": "Зв'язатися",
+    "signal": "живий сигнал",
+    "build": "продакшн-збірка",
+    "waveLabel": "Звукова хвиля прокручується, як кліп під час відтворення, і її піки поступово перетворюються на стовпчики коду",
+    "facts": {
+      "clientsValue": "2 клієнтські сайти",
+      "clientsLabel": "працюють на власних доменах",
+      "teamValue": "Команда з 13",
+      "teamLabel": "очолював у fullstack-проєкті Harmoniq",
+      "stackValue": "Next.js · Node.js",
+      "stackLabel": "React, TypeScript, Express, MongoDB"
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "Meta": {
+    "title": "Yevhenii Priadko — Junior Fullstack Developer",
+    "description": "Former live TV sound engineer, now a fullstack developer building web apps with Next.js, Node.js and MongoDB for real clients."
+  },
+  "Nav": {
+    "label": "Main",
+    "projects": "Projects",
+    "stack": "Stack",
+    "about": "About",
+    "contact": "Contact",
+    "cv": "Download CV",
+    "language": "Language"
+  },
+  "Hero": {
+    "badge": "On air · Junior Fullstack Developer · Kyiv",
+    "titleLine1": "From live broadcast",
+    "titleLine2": "to live production.",
+    "lead": "For years I kept live TV sound on air. Now I build fullstack web apps with Next.js, Node.js and MongoDB — and ship them to real clients.",
+    "ctaProjects": "See projects",
+    "ctaContact": "Get in touch",
+    "signal": "live signal",
+    "build": "production build",
+    "waveLabel": "An audio waveform scrolling like a playing clip, whose peaks gradually turn into columns of code",
+    "facts": {
+      "clientsValue": "2 client sites",
+      "clientsLabel": "live on custom domains",
+      "teamValue": "Team of 13",
+      "teamLabel": "led on the Harmoniq fullstack project",
+      "stackValue": "Next.js · Node.js",
+      "stackLabel": "React, TypeScript, Express, MongoDB"
+    }
+  }
+}
